@@ -120,7 +120,7 @@ Paste and edit:
 
 ### keys.json
 
-Create `mgmt.json` file in the same directory where boyar is downloaded
+Create `keys.json` file in the same directory where boyar is downloaded
 
 ```
 vi keys.json
