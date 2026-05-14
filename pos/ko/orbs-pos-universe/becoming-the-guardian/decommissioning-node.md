@@ -1,56 +1,56 @@
-# Decommissioning node
+# 노드 운영 종료
 
-## Withdraw your assets
+## 자산 회수
 
-### Unstake Staked ORBS
+### 스테이킹한 ORBS 언스테이크
 
-Deregistered guardian will not get staking rewards anymore. Unstaking and withdrawal ORBS is required. You can unstake the asset after unregistration.
+등록 해제된 가디언은 더 이상 스테이킹 보상을 받지 않습니다. ORBS 언스테이크 및 출금이 필요합니다. 등록 해제 후 자산을 언스테이크할 수 있습니다.
 
-### Withdraw deposit ETH/POL
+### 입금한 ETH/POL 인출
 
-You can transfer ETH from the node address. If your node is on polygon network, you need to check POL in node address, too.
+노드 주소에서 ETH를 전송할 수 있습니다. 노드가 폴리곤 네트워크에 있는 경우 노드 주소의 POL도 확인하세요.
 
-## Unregister the guardian
+## 가디언 등록 해제
 
-To unregister on the network, go to [ORBS Guardians Portal](https://guardians.orbs.network/registration) (Requires Metamask connection)
+네트워크에서 등록을 해제하려면 [ORBS 가디언 포털](https://guardians.orbs.network/registration)로 이동합니다(Metamask 연결 필요).
 
-1. Open [Guardians Portal ](https://guardians.orbs.network/)on Chrome browser
-2. Connect Metamask(Guardian wallet) and process UNREGISTER
+1. Chrome 브라우저에서 [가디언 포털](https://guardians.orbs.network/)을 엽니다.
+2. Metamask(가디언 지갑)를 연결하고 UNREGISTER 절차를 진행합니다.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-⚠︎ NOTE:&#x20;
+⚠︎ 참고:&#x20;
 
-* If you are also registered on polygon network, repeat unregister process after changing network to poloygon
-* If you want to execute the contract manually, run [this contract function](https://etherscan.io/address/0xce97f8c79228c53b8b9ad86800a493d1e7e5d1e3#writeContract#F13)
+* 폴리곤 네트워크에도 등록한 경우, 네트워크를 폴리곤으로 바꾼 뒤 등록 해제 절차를 반복하세요.
+* 컨트랙트를 직접 실행하려면 [이 컨트랙트 함수](https://etherscan.io/address/0xce97f8c79228c53b8b9ad86800a493d1e7e5d1e3#writeContract#F13)를 실행하세요.
 
-## Uninstall deployed service
+## 배포된 서비스 제거
 
-### Node using cloud (AWS)
+### 클라우드(AWS) 노드
 
-1. Open terminal on your remote computer and change directory to where [`orbs-node.json`](#user-content-fn-1)[^1] file located.
-2. run polygon destroy command
+1. 원격 PC에서 터미널을 열고 [`orbs-node.json`](#user-content-fn-1)[^1] 파일이 있는 디렉터리로 이동합니다.
+2. polygon destroy 명령을 실행합니다.
 
 ```
 polygon destroy -f orbs-node.json
 ```
 
-3. Deallocate "Elastic IP" at AWS console.
+3. AWS 콘솔에서 "Elastic IP"를 해제합니다.
 
-If you failed to destroy node remotely, you can terminate EC2 service at AWS console.
+원격으로 노드 삭제에 실패하면 AWS 콘솔에서 EC2 인스턴스를 종료할 수 있습니다.
 
-### Node using own infra
+### 자체 인프라 노드
 
-Kill boyar process
+Boyar 프로세스를 종료합니다.
 
-## Verify your Node is destroyed correctly
+## 노드가 올바르게 제거되었는지 확인
 
-Check that all the services is out of connection.
+모든 서비스가 연결되지 않은 상태인지 확인합니다.
 
 ```
 http://<node ip>
 ```
 
-Check your node is disappeared from the [node status list](https://status.orbs.network/).
+[노드 상태 목록](https://status.orbs.network/)에서 해당 노드가 사라졌는지 확인합니다.
 
 [^1]: 

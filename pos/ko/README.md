@@ -1,59 +1,59 @@
-# Proof of stake V3
+# 스테이킹(지분 증명) V3
 
-The Orbs Proof-of-Stake (PoS) Universe is the backbone of the Orbs network and the Universe that is being created. Orbs’ current PoS model - “Orbs PoS V3: Multi-chain Staking” utilizes Orbs’ hybrid architecture and cross-chain capabilities to deploy multi-chain Orbs PoS staking on both Ethereum and Polygon.
+Orbs 지분 증명(PoS) 유니버스는 Orbs 네트워크의 중추이자 함께 만들어 가는 생태계입니다. Orbs의 현재 PoS 모델인 **「Orbs PoS V3: 멀티체인 스테이킹」**은 Orbs의 하이브리드 아키텍처와 크로스체인 기능을 활용해, 이더리움과 폴리곤 양쪽에 멀티체인 Orbs PoS 스테이킹을 배포합니다.
 
 ***
 
-## **Orbs PoS V3: Multi-chain Staking**
+## **Orbs PoS V3: 멀티체인 스테이킹**
 
-The Orbs Network launched in March of 2019​. The successful mainnet launch has enabled the growth of the Orbs ecosystem across all vectors. During Year 0 of the mainnet, development efforts were focused on building and maintaining a secure, stable and inclusive network. While at first the goal was mostly network stability, with time it evolved into growth and scalability.
+Orbs 네트워크는 2019년 3월에 론칭되었습니다. 메인넷의 안정적인 출범은 Orbs 생태계가 모든 방향에서 성장할 수 있는 토대가 되었습니다. 메인넷의 Year 0 동안 개발 노력은 안전하고 안정적이며 포용적인 네트워크를 구축·유지하는 데 집중되었습니다. 처음에는 네트워크 안정성이 주된 목표였으나, 시간이 지나며 성장과 확장성으로 방향이 확장되었습니다.
 
-The Orbs Universe now emphasizes usage and performance while empowering the Orbs Universe Guardians. It enables Orbs Universe Guardians to take an active role in building and maintaining a secure, scalable network, which will be the first choice for blockchain adoption, and to better manage and serve the network and its participants.
+Orbs 유니버스는 이제 사용량과 성능을 강조하면서 Orbs 유니버스 가디언(Guardian)에게 권한을 부여합니다. 가디언이 보안이 확보된 확장 가능한 네트워크를 구축·유지하는 데 적극적으로 참여하고, 블록체인 도입에 있어 첫 번째 선택지가 될 네트워크를 만들며, 네트워크와 참여자를 더 잘 관리하고 지원할 수 있게 합니다.
 
-With the launch of V2.5, Orbs introduced numerous improvements, mainly in the staking rewards assignment and distribution architecture, leading to an improved distribution mechanism and significant reduction in Guardians operating costs. V2.5 aims to enhance network security and scalability through the Orbs PoS Universe and enables the on-boarding of clients with different use-cases.
+V2.5 론칭과 함께 Orbs는 스테이킹 보상 배분·분배 아키텍처 등 다수의 개선을 도입하여, 분배 메커니즘을 개선하고 가디언 운영 비용을 크게 줄였습니다. V2.5는 Orbs PoS 유니버스를 통해 네트워크 보안과 확장성을 높이는 것을 목표로 하며, 서로 다른 유스케이스를 가진 고객의 온보딩을 가능하게 합니다.
 
-Orbs PoS V3: Multi-chain Staking utilizes Orbs’ hybrid architecture and cross-chain properties to allow for participation in Orbs PoS on both Ethereum and Polygon.
+Orbs PoS V3: 멀티체인 스테이킹은 Orbs의 하이브리드 아키텍처와 크로스체인 특성을 활용해, 이더리움과 폴리곤 모두에서 Orbs PoS에 참여할 수 있게 합니다.
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## DELEGATORS
+## 위임자(DELEGATORS)
 
-Delegators are ORBS token holders who assign their voting weight (stake) to Guardians, empowering them to maintain security and uphold the long term vision of the ecosystem.
+위임자(Delegator)는 투표 가중치(스테이크)를 가디언에게 할당하는 ORBS 토큰 보유자로, 가디언이 보안을 유지하고 생태계의 장기 비전을 지키도록 힘을 실어 줍니다.
 
-**Roles and Responsibilities**
+**역할과 책임**
 
-* Actively contribute to the network’s success by staking your ORBS tokens. [Instructions](https://www.orbs.com/tetra-orbs-staking-wallet-tutorial/) on how to stake using the Orbs Tetra wallet.
-* Select a worthy [Guardian](https://staking.orbs.network/?p=/guardians) to delegate your voting power to.
-* Staked tokens will be locked for a period of 14 days. Read more about the [Orbs locking](https://www.orbs.com/introducing-locking-when-staking-orbs) mechanism.
-* Orbs Delegators can choose to stake on Ethereum or Polygon.
+* ORBS 토큰을 스테이킹해 네트워크 성공에 기여합니다. Orbs Tetra 지갑으로 스테이킹하는 방법은 [안내](https://www.orbs.com/tetra-orbs-staking-wallet-tutorial/)를 참고하세요.
+* 투표 권한을 맡길 만한 [가디언](https://staking.orbs.network/?p=/guardians)을 선택합니다.
+* 스테이킹된 토큰은 14일간 잠금됩니다. [Orbs 잠금(locking)](https://www.orbs.com/introducing-locking-when-staking-orbs) 메커니즘에 대해 더 읽어 보세요.
+* Orbs 위임자는 이더리움 또는 폴리곤에서 스테이킹할 수 있습니다.
 
-**Economic Incentives**
+**경제적 인센티브**
 
-* Token holders that delegate to an active Guardian are rewarded in proportion to their stake.
-* Annual reward of up to 6.66% of the Delegator’s staked tokens, depending on the reward distribution split set by the selected Guardian.
-* Only delegation to an active Guardian that participates in the elected committee receives rewards. Also, it is important to note that staking rewards may vary between Guardians, so choose your Guardian carefully!
-
-***
-
-## GUARDIANS
-
-Orbs Guardians represent the Orbs community, they maintain the security of the network by running validator nodes and uphold its long term vision, investing time and effort in the network's success.
-
-**Roles and Responsibilities**
-
-* Guardians operate the Orbs network validator nodes and run the subscribed applications.
-* Guardians are responsible for the staking rewards distribution to their community of delegators by being able to modify their Delegator’s rewards split.
-* Guardians have an option to be part of the [Certified Committee](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians-section-election-committees) and operate virtual chains that require certified Guardians. Certified Committee members are eligible for added incentives.
-* Guardians are expected to be committed to their communities and their Delegators’ staked tokens. Following [OGV-1&2 ](https://www.orbs.com/Reinstating-Guardians-Self-Stake-Requirement/), Guardians are required to have a self-stake of at least 3% of their total delegated stake.
-
-**Economic Incentives**
-
-* Applications running virtual chains on Orbs pay fees directly to the Guardians, representing the cost of the computational resources allocated to the virtual chain.
-* Guardians receive staking rewards of at least 3.33% of their delegated stake, for operating the network and contributing to the network’s security.
-* Guardians who choose to participate in the Certified Committee receive a bootstrap fund distributed in DAI.
+* 활동 중인 가디언에게 위임한 토큰 보유자는 자신의 스테이크 비율에 비례해 보상을 받습니다.
+* 선택한 가디언이 설정한 보상 분배 비율에 따라, 위임자가 스테이킹한 토큰의 최대 연 6.66%까지 보상이 지급될 수 있습니다.
+* 선출된 위원회에 참여하는 활동 가디언에게만 위임할 때 보상이 발생합니다. 또한 가디언마다 스테이킹 보상이 다를 수 있으므로, 가디언 선택에 신중하세요.
 
 ***
 
-Read more about ORBS POS UNIVERSE [here](https://www.orbs.com/pos/).
+## 가디언(GUARDIANS)
+
+Orbs 가디언은 Orbs 커뮤니티를 대표하며, 검증자 노드를 운영해 네트워크 보안을 유지하고 장기 비전을 지키며, 네트워크 성공을 위해 시간과 노력을 투자합니다.
+
+**역할과 책임**
+
+* 가디언은 Orbs 네트워크 검증자 노드를 운영하고, 구독된 애플리케이션을 실행합니다.
+* 가디언은 위임자 커뮤니티에 대한 스테이킹 보상 분배를 위해 위임자 보상 분배 비율을 조정할 수 있습니다.
+* 가디언은 [인증 위원회(Certified Committee)](https://www.orbs.com/white-papers/orbs-pos-v2-the-age-of-guardians-section-election-committees)에 참여할 수 있으며, 인증된 가디언이 필요한 가상 체인을 운영합니다. 인증 위원회 구성원은 추가 인센티브를 받을 수 있습니다.
+* 가디언은 커뮤니티와 위임자의 스테이킹 토큰에 헌신할 것이 기대됩니다. [OGV-1&2](https://www.orbs.com/Reinstating-Guardians-Self-Stake-Requirement/)에 따라, 가디언은 총 위임 스테이크의 최소 3%를 자기 스테이크(self-stake)로 보유해야 합니다.
+
+**경제적 인센티브**
+
+* Orbs에서 가상 체인을 실행하는 애플리케이션은 가상 체인에 할당된 연산 자원 비용으로 가디언에게 직접 수수료를 지불합니다.
+* 가디언은 네트워크를 운영하고 보안에 기여하는 대가로, 위임 스테이크의 최소 3.33%에 해당하는 스테이킹 보상을 받습니다.
+* 인증 위원회 참여를 선택한 가디언은 DAI로 분배되는 부트스트랩 펀드를 받습니다.
+
+***
+
+ORBS PoS 유니버스에 대해 더 알아보려면 [여기](https://www.orbs.com/pos/)를 참고하세요.

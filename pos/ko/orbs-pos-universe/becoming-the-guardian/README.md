@@ -1,51 +1,50 @@
 ---
 description: >-
-  Orbs Guardians represent the Orbs community, they maintain the security of the
-  network by running validator nodes and uphold its long term vision, investing
-  time and effort in the network's success.
+  Orbs 가디언(Guardian)은 Orbs 커뮤니티를 대표하며, 검증자 노드를 운영해 네트워크 보안을 유지하고
+  장기 비전을 지키며, 네트워크 성공을 위해 시간과 노력을 투자합니다.
 ---
 
-# Becoming the Guardian
+# 가디언 되기
 
-## Validator responsibilities <a href="#validator-responsibilities" id="validator-responsibilities"></a>
+## 검증자 책임 <a href="#validator-responsibilities" id="validator-responsibilities"></a>
 
-A blockchain validator is someone who is responsible for validating transactions within a blockchain. On the Polygon PoS network, any participant can be qualified to become a Polygon’s validator by running a validator node (sentry + validator) to earn rewards and collect transaction fees. To ensure the good participation by validators, they lock up at least 1 POL token as a stake in the ecosystem.
+블록체인 검증자는 블록체인 내 트랜잭션을 검증할 책임이 있는 주체입니다. Polygon PoS 네트워크에서는 참여자 누구나 검증자 노드(센트리 + 검증자)를 운영해 보상과 트랜잭션 수수료를 받을 수 있습니다. 검증자의 성실한 참여를 보장하기 위해 생태계에는 최소 1 POL 토큰이 스테이크로 묶여 있습니다.
 
-Any validator on the Polygon PoS network has the following responsibilities:
+Polygon PoS 네트워크의 검증자는 다음 책임을 집니다.
 
-* A guardian may have technical knowledge to install and operate a node and related tools
-* Operations
-  * Maintain high uptime.
-  * Check node-related services and processes daily.
-  * Run node monitoring.
-  * Keep ETH balance (between 0.5 to 1) on the signer address.
-* Delegation
-  * Be open to delegation.
-  * Communicate commission rates.
-* Communication
-  * Communicate to your delegators
-  * Provide feedback and suggestions.
-* Earn staking rewards for validate blocks on the blockchain.
+* 가디언은 노드 및 관련 도구를 설치·운영할 수 있는 기술적 이해가 있을 수 있습니다.
+* 운영
+  * 높은 가동 시간을 유지합니다.
+  * 노드 관련 서비스와 프로세스를 매일 점검합니다.
+  * 노드 모니터링을 실행합니다.
+  * 서명 주소에 ETH 잔액을 0.5~1 사이로 유지합니다.
+* 위임
+  * 위임을 받을 수 있도록 공개합니다.
+  * 커미션 비율을 안내합니다.
+* 소통
+  * 위임자와 소통합니다.
+  * 피드백과 제안을 제공합니다.
+* 블록체인에서 블록을 검증하는 스테이킹 보상을 받습니다.
 
-## Staking Rewards
+## 스테이킹 보상
 
-### Rewards Rate
+### 보상률
 
-Each guardian will get 10% APR rewards and ⅔ of 10% (6.67%) will be distributed to delegators and ⅓ of 10% (3.33%) will be accumulated on guardian's address.
+각 가디언은 연 10% APR 보상을 받으며, 그중 ⅔인 10%의 6.67%는 위임자에게 분배되고, ⅓인 10%의 3.33%는 가디언 주소에 적립됩니다.
 
 {% hint style="info" %}
-A guardian can change rewards rate distributing to delegators at the guardians portal. 66.67%(of 10%) is max value which means network guarantees 33.33% delegating commission for the guardian. Please see [here](set-delegators-share.md) for more details.
+가디언은 가디언 포털에서 위임자에게 분배하는 보상 비율을 변경할 수 있습니다. 10% 중 66.67%가 최댓값이며, 이는 네트워크가 가디언에게 위임 수수료로 최소 33.33%를 보장함을 의미합니다. 자세한 내용은 [여기](set-delegators-share.md)를 참고하세요.
 {% endhint %}
 
-### Minimum staking amount required
+### 요구 최소 스테이킹 금액
 
-Guardians must maintain own stake more than 3% of total delegated staking amounts. If not, exceeded staking tokens will not generate rewards. For example, if total staked amount is 200,000 ORBS and the guardian has 3,000 ORBS as own staked amounts, protocol will distribute 10,000 ORBS per year to the guardian instead of 20,000 ORBS.
+가디언은 총 위임 스테이킹 금액의 3%를 초과하는 자기 스테이크를 유지해야 합니다. 그렇지 않으면 초과분에 해당하는 스테이킹 토큰은 보상이 발생하지 않습니다. 예를 들어 총 스테이킹이 200,000 ORBS이고 가디언 자기 스테이크가 3,000 ORBS이면, 프로토콜은 연간 20,000 ORBS 대신 10,000 ORBS를 가디언에게 분배합니다.
 
-Available Capacity information is given at [Tetra staking wallet](https://staking.orbs.network/).
+가용 용량(Available Capacity) 정보는 [Tetra 스테이킹 지갑](https://staking.orbs.network/)에서 확인할 수 있습니다.
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
 
-### Competitions
+### 경쟁
 
-Please note that only top 22 guardians in order of total delegated amounts are eligible to earn staking rewards and bootstrap funds.
+총 위임 금액 순으로 상위 22명의 가디언만 스테이킹 보상과 부트스트랩 펀드 수령 대상이 됩니다.
 
