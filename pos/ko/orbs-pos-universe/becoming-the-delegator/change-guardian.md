@@ -6,7 +6,7 @@ Delegators are easily change a guardian they delegates without unstake tokens.
 
 Click checkbox in front of guardian name to change your guardian and confirm the transaction
 
-<div align="center"><figure><img src="../../.gitbook/assets/스크린샷 2025-04-02 오전 10.01.38.png" alt=""><figcaption><p>Click checkbox to change your guardian</p></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/screenshot.png" alt=""><figcaption><p>Click checkbox to change your guardian</p></figcaption></figure></div>
 
 
 
