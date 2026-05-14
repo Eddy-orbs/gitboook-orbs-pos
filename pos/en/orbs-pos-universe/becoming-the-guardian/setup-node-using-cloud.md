@@ -62,7 +62,7 @@ Create an Access Key at AWS console and save key id and access key.
 
 Run `aws configure` command and input saved key id, access key and region you chose.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>example aws configuration (defulat profile)</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>example aws configuration (default profile)</p></figcaption></figure></div>
 
 ## Allocate a static IP on Amazon
 
