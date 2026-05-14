@@ -134,7 +134,7 @@ The content of the `orbs-node.json` should be:
     "nodeSize": "r5.large",
     "nodeCount": 0,
     "cachePath": "./_terraform",
-    "incomingSshCidrBlocks": ["<ssh source cird block>",...],
+    "incomingSshCidrBlocks": ["<ssh source cidr block>",...],
     "boyarAutoUpdate": true,
     "managementConfig": {
         "orchestrator": {
@@ -174,7 +174,7 @@ Where:
 * `<aws region>` - An AWS region name. The new node will be provisioned in this region. e.g. `ca-central-1`. Ensure it is the same region as your previously created Elastic IP address.
 * `<node ip>` - A static IP address where this Orbs Node will be reachable. Must be a valid Elastic IP allocated and unattached in the selected region.
 * `<ethereum endpoint url>` - a URL to a working and synced Ethereum node (such as an [Infura](https://infura.io) endpoint starting with `https://mainnet.infura.io/v3/<your key>`).&#x20;
-* `<ssh source cird block>` - One or more CIDR blocks which will be granted access to ssh from into the node. You will still need the public key to connect - it is required only in cases of troubleshooting. The format is standard CIDR. Any IP not in the range will not be able to SSH to the node, even if it has the SSH key file. To allow ssh access from any ip use `"incomingSshCidrBlocks": ["0.0.0.0/0"],`
+* `<ssh source cidr block>` - One or more CIDR blocks which will be granted access to ssh from into the node. You will still need the public key to connect - it is required only in cases of troubleshooting. The format is standard CIDR. Any IP not in the range will not be able to SSH to the node, even if it has the SSH key file. To allow ssh access from any ip use `"incomingSshCidrBlocks": ["0.0.0.0/0"],`
 
 ## Deploy the Node using Polygon CLI
 

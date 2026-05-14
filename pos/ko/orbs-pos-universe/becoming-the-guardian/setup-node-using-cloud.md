@@ -134,7 +134,7 @@ npm install -g @orbs-network/polygon
     "nodeSize": "r5.large",
     "nodeCount": 0,
     "cachePath": "./_terraform",
-    "incomingSshCidrBlocks": ["<ssh source cird block>",...],
+    "incomingSshCidrBlocks": ["<ssh source cidr block>",...],
     "boyarAutoUpdate": true,
     "managementConfig": {
         "orchestrator": {
@@ -174,7 +174,7 @@ npm install -g @orbs-network/polygon
 * `<aws region>` — AWS 리전 이름. 새 노드는 이 리전에 프로비저닝됩니다. 예: `ca-central-1`. 앞서 만든 Elastic IP와 동일한 리전이어야 합니다.
 * `<node ip>` — Orbs 노드에 연결될 고정 IP. 선택한 리전에서 할당·미연결 상태인 Elastic IP여야 합니다.
 * `<ethereum endpoint url>` — 동기화된 이더리움 노드 URL(예: [Infura](https://infura.io) `https://mainnet.infura.io/v3/<키>` 형식).&#x20;
-* `<ssh source cird block>` — 노드로 SSH 접속을 허용할 CIDR 블록 하나 이상. 공개키 없이는 접속할 수 없으며, 트러블슈팅 시에만 필요합니다. 표준 CIDR 형식입니다. 범위 밖 IP는 SSH 키가 있어도 접속할 수 없습니다. 모든 IP에서 SSH를 허용하려면 `"incomingSshCidrBlocks": ["0.0.0.0/0"],`를 사용합니다.
+* `<ssh source cidr block>` — 노드로 SSH 접속을 허용할 CIDR 블록 하나 이상. 공개키 없이는 접속할 수 없으며, 트러블슈팅 시에만 필요합니다. 표준 CIDR 형식입니다. 범위 밖 IP는 SSH 키가 있어도 접속할 수 없습니다. 모든 IP에서 SSH를 허용하려면 `"incomingSshCidrBlocks": ["0.0.0.0/0"],`를 사용합니다.
 
 ## Polygon CLI로 노드 배포
 
