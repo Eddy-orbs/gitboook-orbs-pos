@@ -1,20 +1,20 @@
-# 자체 인프라로 노드 구성
+# 노드 설치 방법 (자체 서버 이용)
 
 ## 시스템 요구 사항
 
-* CPU: Xeon급 이상 권장(AWS r5.large 사양에 상응)
+* CPU: Xeon급 이상 권장(AWS r5.large 사양에 대응)
 * 메모리: 16GB 이상
 * SSD: 256GB 이상
 * 네트워크: 100Mbps 또는 1Gbps
 
 ## 사전 준비
 
-* 위 시스템 요구를 갖춘 하드웨어 서버(네트워크 연결)
+* 위 시스템 요구를 갖춘 하드웨어 서버(네트워크 연결 상태)
 * Ubuntu 20.04 이상 LTS 설치
 * 공인 IP 주소(IPv4)
 * 가디언 지갑(스테이킹, 보상) — 하드웨어 지갑 권장
 * 노드 운용용 ERC20 주소의 개인키
-* 이더리움 RPC 엔드포인트 URL([Infura](https://www.infura.io/) 무료 등급 가능)
+* 이더리움 RPC 엔드포인트 URL([Infura](https://www.infura.io/) 무료 티어 가능)
   * 자체 RPC 또는 다른 web3 서비스 URL 사용 가능
 * Linux 터미널 사용에 익숙할 것
 * 포트 80, 7666, 9100, 10000-10100 허용(ufw 등 방화벽 사용 시)
@@ -137,9 +137,9 @@ vi keys.json
 
 붙여넣고 수정:
 
-* `<NODE_ADDRESS_WITH_NO_LEADING_0x>`를 선행 `0x` 없는 노드 운용 주소로 바꿉니다.\
+* `<NODE_ADDRESS_WITH_NO_LEADING_0x>`를 앞에 `0x` 없는 노드 운용 주소로 바꿉니다.\
   예: `4aca0c63e351b2ea44ee628425710e933b5b3396`
-* `<PRIVATE_KEY>`를 선행 `0x` 없는 노드 운용 개인키로 바꿉니다.\
+* `<PRIVATE_KEY>`를 앞에 `0x` 없는 노드 운용 개인키로 바꿉니다.\
   예: `f5f83Ee70a85fFF2exxxxxxxxxxxxxxxxxxxxxxxxxxx334932F34C8D629165Ed`
 
 ### 디렉터리 생성
@@ -150,7 +150,7 @@ mkdir -p /var/efs/ /var/efs/boyar-status /var/efs/boyar-logs
 
 ## Boyar 실행
 
-[Boyar](https://github.com/orbs-network/boyarin)는 가상 레이어를 프로비저닝하는 데 쓰는 부트스트랩 소프트웨어입니다. 먼저 이더리움에서 체인 목록, 합의 위원회 등 정보를 가져오는 management 서비스 컨테이너를 기동한 뒤, 그 정보로 다른 컨테이너를 실행합니다.
+[Boyar](https://github.com/orbs-network/boyarin)는 가상 레이어 서비스를 제공하는 데 쓰는 필수 소프트웨어입니다. 먼저 이더리움에서 체인 목록, 합의 위원회 등 정보를 가져오는 management 서비스 컨테이너를 기동한 뒤, 그 정보로 다른 컨테이너를 실행합니다.
 
 ```
 vi run_boyar.sh

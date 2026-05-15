@@ -1,6 +1,8 @@
-# Change guardian
+---
+description: Delegators are easily change a guardian they delegates without unstake tokens.
+---
 
-Delegators are easily change a guardian they delegates without unstake tokens.
+# Change guardian
 
 ## TETRA - Desktop
 

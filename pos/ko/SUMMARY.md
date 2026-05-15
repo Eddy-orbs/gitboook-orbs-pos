@@ -11,7 +11,7 @@
   * [온체인에 가디언 등록하기](orbs-pos-universe/becoming-the-guardian/register-your-guardian-on-chain.md)
   * [리워드 분배 비율 설정](orbs-pos-universe/becoming-the-guardian/set-delegators-share.md)
   * [인증 위원회](orbs-pos-universe/becoming-the-guardian/certified-committee/README.md)
-    * [부트스트랩 자금 인출](orbs-pos-universe/becoming-the-guardian/certified-committee/withdraw-bootstrap-funds.md)
+    * [지원 자금 수령 방법](orbs-pos-universe/becoming-the-guardian/certified-committee/withdraw-bootstrap-funds.md)
   * [노드 운영 종료](orbs-pos-universe/becoming-the-guardian/decommissioning-node.md)
 
 ***

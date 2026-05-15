@@ -9,7 +9,7 @@ description: >-
 
 ## Validator responsibilities <a href="#validator-responsibilities" id="validator-responsibilities"></a>
 
-A blockchain validator is someone who is responsible for validating transactions within a blockchain. On the Polygon PoS network, any participant can be qualified to become a Polygon’s validator by running a validator node (sentry + validator) to earn rewards and collect transaction fees. To ensure the good participation by validators, they lock up at least 1 POL token as a stake in the ecosystem.
+A blockchain validator is someone who is responsible for validating transactions within a network. On the Orbs PoS network, any participant can be qualified to become a validator by running a validator node to earn rewards. To ensure the good participation by validators, they need to stake [minimum staking amount required](./#undefined-2) as a stake in the ecosystem.
 
 Any validator on the Polygon PoS network has the following responsibilities:
 
