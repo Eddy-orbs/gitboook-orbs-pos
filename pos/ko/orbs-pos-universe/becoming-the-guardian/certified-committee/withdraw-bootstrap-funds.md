@@ -16,13 +16,10 @@
 
 ## 적립된 지원 펀드 인출
 
-* 18. withdrawBootstrapFunds를 펼칩니다.
+* 18번 withdrawBootstrapFunds를 펼칩니다.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
 * 가디언 주소를 입력하고 Write를 클릭합니다.
 * Metamask에서 트랜잭션을 승인합니다.
 * 부트스트랩 잔액(DAI)이 지갑으로 전송됩니다
-
-
-
