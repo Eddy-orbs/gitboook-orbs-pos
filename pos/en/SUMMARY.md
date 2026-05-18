@@ -17,4 +17,4 @@
 ## Link
 
 * [orbs.com](https://www.orbs.com/pos/)
-* [Node maintenance help](https://app.gitbook.com/s/nntATZcqsyWj32j5CQbd/)
+* [Node maintenance help](https://orbs-doc.gitbook.io/orbs-guardian-help/en)
