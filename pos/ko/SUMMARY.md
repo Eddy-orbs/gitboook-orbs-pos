@@ -14,7 +14,7 @@
     * [지원 자금 수령 방법](orbs-pos-universe/becoming-the-guardian/certified-committee/withdraw-bootstrap-funds.md)
   * [노드 운영 종료](orbs-pos-universe/becoming-the-guardian/decommissioning-node.md)
 
-***
+## LINK
 
 * [orbs.com](https://www.orbs.com/pos/)
 * [노드 운영시 문제 해결 도움](https://orbs-doc.gitbook.io/pos/orbs-pos-universe-ko)
