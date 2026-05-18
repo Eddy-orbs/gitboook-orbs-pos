@@ -14,6 +14,8 @@
     * [Withdraw Bootstrap funds](orbs-pos-universe/becoming-the-guardian/certified-committee/withdraw-bootstrap-funds.md)
   * [Decommissioning node](orbs-pos-universe/becoming-the-guardian/decommissioning-node.md)
 
+## Link
+
 ***
 
 * [orbs.com](https://www.orbs.com/pos/)
