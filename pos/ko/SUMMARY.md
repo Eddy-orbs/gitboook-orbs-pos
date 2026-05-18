@@ -17,4 +17,4 @@
 ***
 
 * [orbs.com](https://www.orbs.com/pos/)
-* [노드 운영시 문제 해결 도움](https://app.gitbook.com/s/lP7m6PbBH5184AdzWeeY/)
+* [노드 운영시 문제 해결 도움](https://orbs-doc.gitbook.io/pos/orbs-pos-universe-ko)
