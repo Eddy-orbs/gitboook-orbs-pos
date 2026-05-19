@@ -43,6 +43,13 @@ If you failed to destroy node remotely, you can terminate EC2 service at AWS con
 
 Kill boyar process
 
+### Node using AWS marketplace
+
+1. Login [AWS console](https://console.aws.amazon.com/console/home/?nc2=h_si\&src=header-signin)
+2. Goto `CloudFormation` service&#x20;
+3. Select your node from `Stacks` list
+4. Click `Delete stack` button
+
 ## Verify your Node is destroyed correctly
 
 Check that all the services is out of connection.

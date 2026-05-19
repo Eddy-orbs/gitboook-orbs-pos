@@ -18,8 +18,6 @@ This step-by-step guide will walk you through creating a new node and connecting
 * A private key and public address of ERC20 address for node operation. For details see [below](setup-node-using-aws-marketplace.md#allocate-orbs-node-address-and-private-key)
 * Ethereum RPC endpoint url ([Infura](https://www.infura.io/) free tier is okay)
 
-
-
 ## Allocate Orbs Node address and private key
 
 The Orbs Node address is a standard Ethereum Address. This address is used for (1) signing blocks on the Orbs network, and for (2) sending transactions to Orbs PoS smart contracts on Ethereum. Therefore, the Orbs node stores and uses the node address's private key. As such, the private key should be different from the Guardian private key.
@@ -117,3 +115,16 @@ http://<node ip>/services/management-service/status
 ## Register your guardian
 
 To register on the network, go to [Guardian Registration](register-your-guardian-on-chain.md) (Requires Metamask)
+
+## Stake ORBS
+
+1. Transfer ORBS tokens from exchange or another source to your guardian wallet.
+2. Transfer ETH for gas fee to approve required transaction during staking.
+3. Connect wallet to [Tetra](https://staking.orbs.network/).&#x20;
+4. Click "STAKE" button and follow the instruction.
+   1. Approve token transfer to staking contract
+   2. Execute staking contract function
+
+{% hint style="info" %}
+Unstake ORBS requires 14 days cooldown.
+{% endhint %}

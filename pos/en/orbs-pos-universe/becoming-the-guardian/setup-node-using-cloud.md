@@ -20,7 +20,7 @@ This step-by-step guide will walk you through creating a new node and connecting
 
 ## Install tools
 
-* [AWS CLI ](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+* [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 * [Node JS version 18 or above](https://nodejs.org/en/download)
 * [Terraform](https://developer.hashicorp.com/terraform/install)
   * After install Terraform, select Terraform version v0.12.23
@@ -173,7 +173,7 @@ Where:
 * `<orbs node ethereum address>` - The Orbs Node Ethereum address, EIP-55 compliant with checksum capitalization **but without the leading '0x'**
 * `<aws region>` - An AWS region name. The new node will be provisioned in this region. e.g. `ca-central-1`. Ensure it is the same region as your previously created Elastic IP address.
 * `<node ip>` - A static IP address where this Orbs Node will be reachable. Must be a valid Elastic IP allocated and unattached in the selected region.
-* `<ethereum endpoint url>` - a URL to a working and synced Ethereum node (such as an [Infura](https://infura.io) endpoint starting with `https://mainnet.infura.io/v3/<your key>`).&#x20;
+* `<ethereum endpoint url>` - a URL to a working and synced Ethereum node (such as an [Infura](https://infura.io) endpoint starting with `https://mainnet.infura.io/v3/<your key>`).
 * `<ssh source cidr block>` - One or more CIDR blocks which will be granted access to ssh from into the node. You will still need the public key to connect - it is required only in cases of troubleshooting. The format is standard CIDR. Any IP not in the range will not be able to SSH to the node, even if it has the SSH key file. To allow ssh access from any ip use `"incomingSshCidrBlocks": ["0.0.0.0/0"],`
 
 ## Deploy the Node using Polygon CLI
@@ -239,6 +239,23 @@ http://<node ip>/services/management-service/status
 ## Register your guardian
 
 To register on the network, go to [Guardian Registration](register-your-guardian-on-chain.md) (Requires Metamask)
+
+## Stake ORBS
+
+1. Transfer ORBS tokens from exchange or another source to your guardian wallet.
+2. Transfer ETH for gas fee to approve required transaction during staking.
+3. Connect wallet to [Tetra](https://staking.orbs.network/).&#x20;
+4. Click "STAKE" button and follow the instruction.
+   1. Approve token transfer to staking contract
+   2. Execute staking contract function
+
+{% hint style="info" %}
+Unstake ORBS requires 14 days cooldown.
+{% endhint %}
+
+### Reference guide
+
+* [https://www.orbs.com/tetra-orbs-staking-wallet-tutorial/](https://www.orbs.com/tetra-orbs-staking-wallet-tutorial/)
 
 ## Troubleshooting
 

@@ -22,7 +22,7 @@
 ## Install tools
 
 {% hint style="info" %}
-use root account or use sudo for all terminal command&#x20;
+use root account or use sudo for all terminal command
 {% endhint %}
 
 ### login root
@@ -156,7 +156,7 @@ mkdir -p /var/efs/ /var/efs/boyar-status /var/efs/boyar-logs
 vi run_boyar.sh
 ```
 
-paste boyar command&#x20;
+paste boyar command
 
 ```
 boyar --keys ./keys.json --management-config ./mgmt.json --log /var/efs/boyar-logs/current --status /var/efs/boyar-status/status.json --bootstrap-reset-timeout 30m --auto-update --shutdown-after-update
@@ -271,5 +271,17 @@ You can also replace `localhost` with your node IP address.
 
 ## Register your guardian
 
-To register on the network, go to [Guardian Registration](register-your-guardian-on-chain.md) (Requires Metamask)\
-<br>
+To register on the network, go to [Guardian Registration](register-your-guardian-on-chain.md) (Requires Metamask)
+
+## Stake ORBS
+
+1. Transfer ORBS tokens from exchange or another source to your guardian wallet.
+2. Transfer ETH for gas fee to approve required transaction during staking.
+3. Connect wallet to [Tetra](https://staking.orbs.network/).&#x20;
+4. Click "STAKE" button and follow the instruction.
+   1. Approve token transfer to staking contract
+   2. Execute staking contract function
+
+{% hint style="info" %}
+Unstake ORBS requires 14 days cooldown.
+{% endhint %}
