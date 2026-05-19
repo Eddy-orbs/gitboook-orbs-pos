@@ -34,7 +34,7 @@ NOTE:
 * [ ] 1 POL deposit required in "Node Wallet" in Polygon network (optional for polygon staking)
 * [ ] Only the top 22 elected Guardians are eligible for the rewards and bootstrap funds.
 
-<div align="center"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Guardians Portal screenshot</p></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Guardians Portal screenshot</p></figcaption></figure></div>
 
 ## Polygon network support
 

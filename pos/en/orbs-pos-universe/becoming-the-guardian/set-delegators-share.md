@@ -16,11 +16,11 @@ Select `DELEGATORS SHARE` tab at [Guardians Portal](https://guardians.orbs.netwo
 The percentage must be between 0% and 66.667%. To incentivize guardians running node and cover the node operating cost, maximum value is restricted to 66.667%. This guarantees 33.33% as guardians rewards.&#x20;
 {% endhint %}
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 2. Click `ACCEPT` button.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 3. Confirm transaction request at connected Metamask wallet.
 

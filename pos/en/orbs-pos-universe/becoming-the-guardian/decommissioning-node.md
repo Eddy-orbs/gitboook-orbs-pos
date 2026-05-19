@@ -17,7 +17,7 @@ To unregister on the network, go to [ORBS Guardians Portal](https://guardians.or
 1. Open [Guardians Portal ](https://guardians.orbs.network/)on Chrome browser
 2. Connect Metamask(Guardian wallet) and process UNREGISTER
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ⚠︎ NOTE:&#x20;
 

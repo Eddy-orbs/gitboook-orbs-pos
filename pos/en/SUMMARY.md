@@ -8,6 +8,7 @@
 * [Becoming the Guardian](orbs-pos-universe/becoming-the-guardian/README.md)
   * [Setup node using cloud](orbs-pos-universe/becoming-the-guardian/setup-node-using-cloud.md)
   * [Setup node using own infra](orbs-pos-universe/becoming-the-guardian/setup-node-using-own-infra.md)
+  * [Setup node using AWS marketplace](orbs-pos-universe/becoming-the-guardian/setup-node-using-aws-marketplace.md)
   * [Register your guardian on chain](orbs-pos-universe/becoming-the-guardian/register-your-guardian-on-chain.md)
   * [Set delegators share](orbs-pos-universe/becoming-the-guardian/set-delegators-share.md)
   * [Certified committee](orbs-pos-universe/becoming-the-guardian/certified-committee/README.md)

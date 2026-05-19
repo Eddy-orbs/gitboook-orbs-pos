@@ -12,13 +12,13 @@ A Guardian that operates a validator node and goes through the certification pro
 
 * Select Metamask
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Withdraw Bootstrap Balance
 
 * Expand 18. withdrawBootstrapFunds
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * Type your guardian address and click Write
 * Approve the transaction in Metamask
