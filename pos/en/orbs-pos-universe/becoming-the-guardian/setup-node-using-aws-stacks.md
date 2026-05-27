@@ -6,7 +6,7 @@ description: >-
 
 # Setup node using AWS Stacks
 
-Setup node using cloud prebuilt  (AWS Marketplace)
+Setup node using cloud prebuilt image(AMI)
 
 You can use cloud service such as Amazon Web Service to obtain node infrastructure and public IP address automated by marketplace product. This can be chosen by who does not have physical space to store computer and own public IP address or who is not familiar with remote terminal environments.
 
