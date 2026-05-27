@@ -22,7 +22,7 @@
 ## 도구 설치
 
 {% hint style="info" %}
-root 계정을 쓰거나 모든 터미널 명령에 sudo를 사용하세요.&#x20;
+root 계정을 쓰거나 모든 터미널 명령에 sudo를 사용하세요.
 {% endhint %}
 
 ### root 로그인
@@ -156,7 +156,7 @@ mkdir -p /var/efs/ /var/efs/boyar-status /var/efs/boyar-logs
 vi run_boyar.sh
 ```
 
-boyar 명령을 붙여넣습니다.&#x20;
+boyar 명령을 붙여넣습니다.
 
 ```
 boyar --keys ./keys.json --management-config ./mgmt.json --log /var/efs/boyar-logs/current --status /var/efs/boyar-status/status.json --bootstrap-reset-timeout 30m --auto-update --shutdown-after-update
@@ -271,5 +271,17 @@ Linux 머신에서 다음 URL에 접근할 수 있습니다.
 
 ## 가디언 등록
 
-네트워크에 등록하려면 [가디언 등록](register-your-guardian-on-chain.md)으로 이동합니다(Metamask 필요)\
+네트워크에 등록하려면 [가디언 등록](register-your-guardian-on-chain.md)으로 이동합니다(Metamask 필요)
+
+## ORBS 스테이킹하기
+
+1. 가디언 지갑으로 스테이킹할 ORBS 토큰을 전송하세요.
+2. 스테이킹에는 약간의 가스비(ETH)가 필요합니다.
+3. 스테이킹 지갑앱 [Tetra](https://staking.orbs.network/) 에 접속하세요.
+4. "스테이킹" 버튼을 눌러서 스테이킹 절차를 진행하세요.
+
+{% hint style="info" %}
+스테이킹된 ORBS 토큰을 다시 언스테이킹하는데는 14일이 소요됩니다.
+{% endhint %}
+
 <br>

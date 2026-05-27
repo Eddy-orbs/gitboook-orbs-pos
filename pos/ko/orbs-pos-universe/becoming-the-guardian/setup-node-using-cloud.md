@@ -24,17 +24,17 @@ Amazon Web Services 같은 클라우드로 노드 인프라와 공인 IP를 확�
 * [Node.js 18 이상](https://nodejs.org/en/download)
 * [Terraform](https://developer.hashicorp.com/terraform/install)
   * Terraform 설치 후 버전 v0.12.23을 선택합니다.
-    * v0.12.23 설치
+    *   v0.12.23 설치
 
         ```
         tfenv install 0.12.23
         ```
-    * v0.12.23 선택
+    *   v0.12.23 선택
 
         ```
         tfenv use 0.12.23
         ```
-    * v0.12.23이 선택되었는지 확인
+    *   v0.12.23이 선택되었는지 확인
 
         ```
         terraform -v
@@ -239,6 +239,17 @@ http://<node ip>/services/management-service/status
 ## 가디언 등록
 
 네트워크에 등록하려면 [가디언 등록](register-your-guardian-on-chain.md)으로 이동합니다(Metamask 필요).
+
+## ORBS 스테이킹하기 <a href="#stake-orbs" id="stake-orbs"></a>
+
+1. 가디언 지갑으로 스테이킹할 ORBS 토큰을 전송하세요.
+2. 스테이킹에는 약간의 가스비(ETH)가 필요합니다.
+3. 스테이킹 지갑앱 [Tetra](https://staking.orbs.network/) 에 접속하세요.
+4. "스테이킹" 버튼을 눌러서 스테이킹 절차를 진행하세요.
+
+{% hint style="info" %}
+스테이킹된 ORBS 토큰을 다시 언스테이킹하는데는 14일이 소요됩니다.
+{% endhint %}
 
 ## 문제 해결
 
