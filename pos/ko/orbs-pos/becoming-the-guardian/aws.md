@@ -2,9 +2,9 @@
 description: ⚠️ 베타버전으로 2개의 지역만 현재 지원합니다. 오브스 노드는 설치 지역을 제한하지 않습니다.
 ---
 
-# 노드 설치 방법 (AWS 마켓플레이스)
+# 노드 설치 방법 (AWS 스택)
 
-AWS 마켓 플레이스에서 지원하는 이미지를 통해 노드를 설치합니다.
+AWS 에서 지원하는 이미지(AMI)를 통해 노드를 설치합니다.
 
 Amazon Web Services 같은 클라우드로 노드 인프라와 공인 IP를 확보할 수 있습니다. 터미널 환경에 익숙하지 않거나, 별도의 서버가 없고 직접 공인 IP를 확보하기 어려운 경우에 적합합니다.
 
@@ -37,53 +37,32 @@ _**Orbs 노드 개인키는 반드시 안전한 곳 보관하세요.**_
 
 필요하면 [wallet generator](https://iancoleman.io/bip39/)로 새 지갑과 개인키를 만들 수 있습니다.
 
-## AWS 마켓플레이스에서 Orbs Node 앱 구매 (무료) <a href="#subscribe-orbs-node-app-from-aws-marketplace" id="subscribe-orbs-node-app-from-aws-marketplace"></a>
+## AWS 스택 설치
 
-1. 브라우저에서 [AWS 마켓플레이스](https://aws.amazon.com/marketplace)에 접속해서 aws 계정으로 로그인하세요.
-2. &#x20;[Orbs Network Full Node](https://aws.amazon.com/marketplace/pp?sku=51c282skmep4qmamtmspsi8f3) 애플리케이션으로 접속하세요.
-3.  `View purchase option(구매 옵션 보기)` 를 클릭하세요.
+1. 크롬 브라우저에서  [AWS 콘솔 웹사이트](https://console.aws.amazon.com/) 에 접속하여 로그인 &#x20;
+2. &#x20;아래 LAUNCH STACK 버튼을 눌러서 설치화면을 열어주세요:\
+   [![Launch Stack us-east-1](https://camo.githubusercontent.com/45efe5b594d50802654c8f5ff0ab65e8e9c6ab7367f4d7cb4ac737a4ed4fdc75/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c61756e6368253230537461636b2d75732d2d656173742d2d312d6f72616e67653f7374796c653d666f722d7468652d6261646765266c6f676f3d616d617a6f6e617773)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=orbs-boyar-validator\&templateURL=https%3A%2F%2Fkryp-labs-orbs-boyar-cloudformation-617775257107-us-east-2.s3.us-east-2.amazonaws.com%2Forbs-boyar-aws-launcher%2Ftemplate-medium-ami-direct-autonet-github-us-east-1.yaml)
 
-    <img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FP1ay9DhcpCc5oru9wXTz%252Fimage.png%3Falt%3Dmedia%26token%3Dfd09be62-5aff-4f8c-b3c6-4d641cb28c29&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=405529d8&#x26;sv=2" alt="" height="741" width="822">
-4. 스크롤을 내리고 `Subscribe(구독하기)` 를 클릭하세요. 몇 분이 소요될 수 있습니다.
-5.  `Launch your software(소프트웨어 시작)`을 클릭하세요.
+## 빠른 스택 생성
 
-    You can see Launch button after subscription process done
+준비된 정보를 입력하세요
 
-## Orbs Network Full Node 설치하기 <a href="#launch-orbs-network-full-node" id="launch-orbs-network-full-node"></a>
+1. 필수 입력 정보
+   1. **Stack name(스택 이름)**: 원하는 이름을 넣으세요 (ie. `my-orbs-node-name`)
+   2. **Ethereum RPC endpoint** (ie. `https://mainnet.infura.io/v3/06b6...b2d7e`)
+   3. **Orbs node address without 0x** (ie. `246abE5D...000`)
+   4. **Orbs private key without 0x** (ie. `0ab6F...000`)
+   5. **SSH access CIDR**: `0.0.0.0/0` 또는 원하는 값(의미를 아는 경우)
+   6. **Node/status access CIDR**: `0.0.0.0/0` 또는 원하는 값(의미를 아는 경우)
+2. 선택 입력 정보
+   1. EIP (탄력적 IP) (선택 옵션): 이미 할당받은 ip 주소가 있다면 여기 입력하세요. 할당받은 IP주소가 없다면 비워두세요. 설치중에 자동으로 IP주소를 할당받아서 설치 후에 주소값을 알려줍니다.
+   2. Optional EC2 Key Pair name(선택 옵션): SSH접속을 위한 키값
+3. `Create stack(스택생성)` 버튼을 클릭하세요.
+4.  설치 상태가 `CREATE_COMPLETE` 완료가 될때까지 기다려주세요. (약 10분 후 새로고침을 클릭결과해보세요)<br>
 
-{% hint style="info" %}
-NOTE: 현재 베타기간으로 2개의 지역만 설치지원합니다. 리전 옵션에서 둘 중 하나를 선택하세요. 오브스 노드 설치는 꼭 자신의 거주지역이 아니어도 상관없습니다.&#x20;
-{% endhint %}
+    <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (11).png" alt="" width="346"><figcaption></figcaption></figure></div>
 
-1.  **리전 선택하기**
-
-    <div align="left"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252Fz6W76sFpWiFgTdZfyUjF%252Fimage.png%3Falt%3Dmedia%26token%3Dcf5f56db-cc22-45d2-a1d0-a13102afd44d&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=4bfc9428&#x26;sv=2" alt="" height="79" width="570"></div>
-2.  **시작하기:**  `Launch with CloudFormation (CloudFormation으로 시작)` 버튼 클릭
-
-    <div align="left"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FaRD8LVmIC4ggexxAmmIq%252Fimage.png%3Falt%3Dmedia%26token%3D10cbd8e7-3fb9-41be-9862-3e07b792f03c&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=b228540d&#x26;sv=2" alt="" height="230" width="563"></div>
-3.  **스택 생성:**  `Next(다음)` 버튼을 클릭하세요. 만약 S3 URL입력칸이 비어있다면 아래 주소를 붙여넣으세요:\
-    Amazon S3 URL: `https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/3b48d71a-feb8-4e18-87fb-27aafed9a2c0/3b48d71a-feb8-4e18-87fb-27aafed9a2c0/template-medium-ami-direct.yaml`
-
-    <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252F51dkM17VaOqCmr6FdcVJ%252Fimage.png%3Falt%3Dmedia%26token%3Da7453afe-1a6b-4be2-9a6e-64d44bee8210&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=77d45704&#x26;sv=2" alt="" width="563"></div>
-4. **스택 세부 정보 지정**: 준비된 정보를 입력하세요
-   1. 필수 입력 정보
-      1. **Stack name(스택 이름)**: 원하는 이름을 넣으세요 (ie. `my-orbs-node-name`)
-      2. **Ethereum RPC endpoint** (ie. `https://mainnet.infura.io/v3/06b6...b2d7e`)
-      3. **Orbs node address without 0x** (ie. `246abE5D...000`)
-      4. **Orbs private key without 0x** (ie. `0ab6F...000`)
-      5. **SSH access CIDR**:  `0.0.0.0/0` 또는 원하는 값(의미를 아는 경우)
-      6. **Node/status access CIDR**:  `0.0.0.0/0` 또는 원하는 값(의미를 아는 경우)
-   2. 선택 입력 정보
-      1. EIP (탄력적 IP) (선택 옵션): 이미 할당받은 ip 주소가 있다면 여기 입력하세요. 할당받은 IP주소가 없다면 비워두세요. 설치중에 자동으로 IP주소를 할당받아서 설치 후에 주소값을 알려줍니다.
-      2. Optional EC2 Key Pair name(선택 옵션): SSH접속을 위한 키값
-   3. `Next(다음)` 버튼을 클릭하세요
-5. **스택 옵션 구성:** 따로 입력할 값이 없습니다. 바로 `Next(다음)` 버튼을 누르세요.
-6. **검토 및 작성:** 스크롤을 내리고 `Submit(전송)` 버튼을 누르세요.
-7.  설치 상태가 `CREATE_COMPLETE` 완료가 될때까지 기다려주세요. (약 10분 후 새로고침을 클릭결과해보세요)
-
-    <div align="left"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FyKOOAmg6JzR3UCgKtI5P%252Fimage.png%3Falt%3Dmedia%26token%3D3eb78c65-b6dd-476c-8450-61114af76fce&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=35771510&#x26;sv=2" alt="" height="371" width="461"></div>
-
-### 결과값 저장하기 <a href="#backup-outputs" id="backup-outputs"></a>
+## 결과값 저장하기 <a href="#backup-outputs" id="backup-outputs"></a>
 
 <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FJ5PEHWRUHg5EeLRSSQ3B%252Fimage.png%3Falt%3Dmedia%26token%3D4ce2809b-9fc8-490f-bc13-b8e91ff6e952&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=53aad222&#x26;sv=2" alt=""></div>
 
@@ -122,3 +101,106 @@ http://<node ip>/services/management-service/status
 {% endhint %}
 
 <br>
+
+Setup node using cloud prebuilt image(AMI)
+
+You can use cloud service such as Amazon Web Service to obtain node infrastructure and public IP address automated by marketplace product. This can be chosen by who does not have physical space to store computer and own public IP address or who is not familiar with remote terminal environments.
+
+This step-by-step guide will walk you through creating a new node and connecting it to an existing Orbs network.
+
+## Prerequisites
+
+* Web browser (Chrome is recommended)
+* AWS account
+* AWS Elastic IP (Optional)
+* Guardian Wallet (for stake/rewards) - HW wallet recommended
+* A private key and public address of ERC20 address for node operation. For details see [below](aws.md#allocate-orbs-node-address-and-private-key)
+* Ethereum RPC endpoint url ([Infura](https://www.infura.io/) free tier is okay)
+
+## Allocate Orbs Node address and private key
+
+The Orbs Node address is a standard Ethereum Address. This address is used for (1) signing blocks on the Orbs network, and for (2) sending transactions to Orbs PoS smart contracts on Ethereum. Therefore, the Orbs node stores and uses the node address's private key. As such, the private key should be different from the Guardian private key.
+
+During normal operation, Orbs node automatically sends transactions to the PoS smart contracts on Ethereum (e.g. to execute reward distribution or to signal that it is in sync with the network and ready to enter a committee). The Orbs Node address should hold enough ETH to fund the gas for transactions sent to the PoS contracts. It is the Guardian's responsibility to periodically verify the Orbs node address has a balance of at least 0.5 ETH.
+
+Note - To complete registration, the Orbs node address is required to start with at least 1 ETH.
+
+Orbs Node address and private key should be generated in a secure fashion and the private key is required during node deployment (see below).
+
+The Orbs Node address is also required during the [Guardian Registration phase](../../orbs-pos-universe/becoming-the-guardian/register-your-guardian-on-chain.md).
+
+The Orbs address may be modified, by updating the registration. Prior to a node address change, the node should be teared-down and redeployed.
+
+_**The Orbs Node private key should be securely stored.**_
+
+If needed, use [wallet generator](https://iancoleman.io/bip39/) to create new wallet provides privatekey.
+
+## Launch Stack on AWS
+
+1. login [AWS console website](https://console.aws.amazon.com/) using internet browser (ie. Chrome)
+2. Shift + Click Launch button below:\
+   [![Launch Stack us-east-1](https://camo.githubusercontent.com/45efe5b594d50802654c8f5ff0ab65e8e9c6ab7367f4d7cb4ac737a4ed4fdc75/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c61756e6368253230537461636b2d75732d2d656173742d2d312d6f72616e67653f7374796c653d666f722d7468652d6261646765266c6f676f3d616d617a6f6e617773)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=orbs-boyar-validator\&templateURL=https%3A%2F%2Fkryp-labs-orbs-boyar-cloudformation-617775257107-us-east-2.s3.us-east-2.amazonaws.com%2Forbs-boyar-aws-launcher%2Ftemplate-medium-ami-direct-autonet-github-us-east-1.yaml)
+
+## **Quick create stack**
+
+Input required items
+
+1. Required Parameters
+   1. **Stack name**: Any name you want to use (ie. `my-orbs-node-name`)
+   2. **Ethereum RPC endpoint** (ie. `https://mainnet.infura.io/v3/06b6...b2d7e`)
+   3. **Orbs node address without 0x** (ie. `246abE5D...000`)
+   4. **Orbs private key without 0x** (ie. `0ab6F...000`)
+   5. **SSH access CIDR**: input `0.0.0.0/0` or you can input as you want&#x20;
+   6. **Node/status access CIDR**: modify to `0.0.0.0/0` or you can input as you want&#x20;
+2. Optional Parameters
+   1. Existing EIP AllocationId(Optional): input ip address when only you already have an allocated Elastic IP. If you don't have any EIP, just leave it empty. Tool will allocate automatically and return the address later.
+   2. Optional EC2 Key Pair name(Optional): input key pair if you want to use SSH connection to installed server.
+3. Click `Create stack` button
+4.  Wait until `CREATE_COMPLETE` <br>
+
+    <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (11).png" alt="" width="346"><figcaption></figcaption></figure></div>
+
+## Backup outputs
+
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
+
+Goto Outputs tab on you installed CloudFormation Stack and backup your node information:
+
+* **Elastic IP:** Allocated IPv4 address (ie. `44.207.238.247`)
+* **BoyarStatusUrl:** http://\<your\_ip\_address>/services/boyar/status
+
+## Verify your Node is deployed correctly
+
+{% hint style="info" %}
+Try to connect BoyarStatusUrl with browser and check that all the services started without errors
+{% endhint %}
+
+Check that all the services started without errors
+
+```
+http://<node ip>/services/boyar/status
+```
+
+Check your node's status in the PoS network (readings are 10 minutes delayed for finality)
+
+```
+http://<node ip>/services/management-service/status
+```
+
+## Register your guardian
+
+To register on the network, go to [Guardian Registration](../../orbs-pos-universe/becoming-the-guardian/register-your-guardian-on-chain.md) (Requires Metamask)
+
+## Stake ORBS
+
+1. Transfer ORBS tokens from exchange or another source to your guardian wallet.
+2. Transfer ETH for gas fee to approve required transaction during staking.
+3. Connect wallet to [Tetra](https://staking.orbs.network/).&#x20;
+4. Click "STAKE" button and follow the instruction.
+   1. Approve token transfer to staking contract
+   2. Execute staking contract function
+
+{% hint style="info" %}
+Unstake ORBS requires 14 days cooldown.
+{% endhint %}
+
