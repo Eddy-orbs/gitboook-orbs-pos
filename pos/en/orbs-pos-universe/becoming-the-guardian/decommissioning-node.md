@@ -26,7 +26,7 @@ To unregister on the network, go to [ORBS Guardians Portal](https://guardians.or
 
 ## Uninstall deployed service
 
-### Node using cloud (AWS)
+### Node using AWS CLI
 
 1. Open terminal on your remote computer and change directory to where [`orbs-node.json`](#user-content-fn-1)[^1] file located.
 2. run polygon destroy command
@@ -37,18 +37,18 @@ polygon destroy -f orbs-node.json
 
 3. Deallocate "Elastic IP" at AWS console.
 
-If you failed to destroy node remotely, you can terminate EC2 service at AWS console.
+If you failed to destroy node remotely, you can terminate EC2 service at AWS console
 
-### Node using own infra
-
-Kill boyar process
-
-### Node using AWS marketplace
+### Node using AWS Stacks
 
 1. Login [AWS console](https://console.aws.amazon.com/console/home/?nc2=h_si\&src=header-signin)
 2. Goto `CloudFormation` service&#x20;
 3. Select your node from `Stacks` list
 4. Click `Delete stack` button
+
+### Node using own infra
+
+Kill boyar process
 
 ## Verify your Node is destroyed correctly
 
