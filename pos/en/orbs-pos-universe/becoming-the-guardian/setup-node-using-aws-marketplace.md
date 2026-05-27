@@ -6,15 +6,16 @@ description: ⚠️ This is experimental and beta version. Only 2 region is supp
 
 Setup node using cloud prebuilt  (AWS Marketplace)
 
-You can use cloud service such as Amazon Web Service to obtain node infrastructure and public IP address automated by marketplace product. This can be chosen by who does not have physical space to store computer and own public IP address besides remote terminal environments.
+You can use cloud service such as Amazon Web Service to obtain node infrastructure and public IP address automated by marketplace product. This can be chosen by who does not have physical space to store computer and own public IP address or who is not familiar with remote terminal environments.
 
 This step-by-step guide will walk you through creating a new node and connecting it to an existing Orbs network.
 
 ## Prerequisites
 
-* Remote pc (Windows, MacOS, Linux GUI)
+* Web browser (Chrome is recommended)
 * AWS account
-* Guardian Wallet (stake, rewards) - HW wallet recommended
+* AWS Elastic IP (Optional)
+* Guardian Wallet (for stake/rewards) - HW wallet recommended
 * A private key and public address of ERC20 address for node operation. For details see [below](setup-node-using-aws-marketplace.md#allocate-orbs-node-address-and-private-key)
 * Ethereum RPC endpoint url ([Infura](https://www.infura.io/) free tier is okay)
 
@@ -54,7 +55,7 @@ If needed, use [wallet generator](https://iancoleman.io/bip39/) to create new wa
 NOTE: during beta, only 2 regions are supportive. Please select one of regions in the dropdown menu.
 {% endhint %}
 
-1.  Select Region <br>
+1.  Select Region&#x20;
 
     <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="428"><figcaption></figcaption></figure></div>
 
@@ -64,21 +65,24 @@ NOTE: during beta, only 2 regions are supportive. Please select one of regions i
     <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (3).png" alt="" width="422"><figcaption></figcaption></figure></div>
 
 
-3.  **Create Stack:** Click `Next` button. If inputs are empty, you can copy and paste:\
+3.  **Create Stack:** Click `Next` button. If S3 URL is empty, you can copy and paste:\
     Amazon S3 URL: `https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/3b48d71a-feb8-4e18-87fb-27aafed9a2c0/3b48d71a-feb8-4e18-87fb-27aafed9a2c0/template-medium-ami-direct.yaml`
 
     <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 
 4. **Specify stack details**: Input required items
-   1. Stack name: Any name you want to use (ie. `my-orbs-node-name`)
-   2. Ethereum RPC endpoint (ie. `https://mainnet.infura.io/v3/06b6...b2d7e`)
-   3. Orbs node address without 0x (ie. `246abE5D...000`)
-   4. Orbs private key without 0x (ie. `0ab6F...000`)
-   5. Public access CIDR: modify to `0.0.0.0/0`
-   6. Existing EIP AllocationId(Optional): input ip address when only you already have an allocated Elastic IP. If you don't have any EIP, just leave it empty. Tool will allocate automatically and return the address later.
-   7. Optional EC2 Key Pair name(Optional): input key pair if you want to use SSH connection to installed server.
-   8. Click `Next` button<br>
+   1. Required Parameters
+      1. **Stack name**: Any name you want to use (ie. `my-orbs-node-name`)
+      2. **Ethereum RPC endpoint** (ie. `https://mainnet.infura.io/v3/06b6...b2d7e`)
+      3. **Orbs node address without 0x** (ie. `246abE5D...000`)
+      4. **Orbs private key without 0x** (ie. `0ab6F...000`)
+      5. **SSH access CIDR**: input `0.0.0.0/0` or you can input as you want&#x20;
+      6. **Node/status access CIDR**: modify to `0.0.0.0/0` or you can input as you want&#x20;
+   2. Optional Parameters
+      1. Existing EIP AllocationId(Optional): input ip address when only you already have an allocated Elastic IP. If you don't have any EIP, just leave it empty. Tool will allocate automatically and return the address later.
+      2. Optional EC2 Key Pair name(Optional): input key pair if you want to use SSH connection to installed server.
+   3. Click `Next` button<br>
 5. **Configure stack options:** Nothing to input. Click `Next` button.
 6. **Review and create:** Scroll down and click `Submit` button.
 7.  Wait until `CREATE_COMPLETE` <br>
