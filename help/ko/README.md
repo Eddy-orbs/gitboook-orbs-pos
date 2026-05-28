@@ -1,6 +1,6 @@
 # ORBS 노드 서버 복구 가이드
 
-<figure><img src=".gitbook/assets/스크린샷 2025-03-14 오후 1.02.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot-2025-03-14-pm-1-02-01.png" alt=""><figcaption></figcaption></figure>
 
 오브스 노드 서버 작동이 멈추어서 상태가 offline 으로 표시되는 경우 해결 방법을 안내드립니다. 아래 방법을 하나씩 해보시고 1번 방법으로 해결이 되지 않을 경우 2번방법을 수행해보세요.&#x20;
 

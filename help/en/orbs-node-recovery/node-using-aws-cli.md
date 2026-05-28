@@ -56,7 +56,7 @@ This solution tries simple server restarting.
 8. Please wait until success massage displayed.
 9.  Please wait and hour and check [status page](https://status.orbs.network/).  It can take 24 hours having all green.<br>
 
-    <div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오후 1.02.10.png" alt=""><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../.gitbook/assets/screenshot-2025-03-14-pm-1-02-10.png" alt=""><figcaption></figcaption></figure></div>
 10. If it keeps offline,  please contact [eddy@orbs.com](mailto:eddy@orbs.com).
 
 

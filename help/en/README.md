@@ -1,6 +1,6 @@
 # ORBS Node recovery
 
-<figure><img src=".gitbook/assets/스크린샷 2025-03-14 오후 1.02.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot-2025-03-14-pm-1-02-01.png" alt=""><figcaption></figcaption></figure>
 
 This instruction guides how to fix node when it is offline. Try following instructions one by one. When the first solution does not work, try the second.
 

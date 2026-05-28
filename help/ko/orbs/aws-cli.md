@@ -57,7 +57,7 @@
 8. 성공적인 완료메세지(Success 메세지)가 나올때까지 기다려주세요.
 9.  약 30\~60분 후,  [https://status.orbs.network/](https://status.orbs.network/) 에서 본인의 서버가 offline이 아닌, 정상적인 체크박스로 나타나는지 확인해보세요. (모든 칸이 초록색이되는데는 하루정도 걸릴 수 있습니다. 맨앞 칸이라도 체크박스가 되면 정상동작을 시작하고 있음을 뜻합니다)<br>
 
-    <div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오후 1.02.10.png" alt=""><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../.gitbook/assets/screenshot-2025-03-14-pm-1-02-10.png" alt=""><figcaption></figcaption></figure></div>
 10. 만일 destroy에 실패한다면, 아래 방법3을 시도해보세요.
 
 ## 방법3. AWS cleanup
