@@ -7,7 +7,7 @@
   * [가디언 변경하기](orbs-pos-universe/becoming-the-delegator/change-guardian.md)
 * [가디언으로 참여하는 방법](orbs-pos-universe/becoming-the-guardian/README.md)
   * [노드 설치 방법 (AWS CLI)](orbs-pos-universe/becoming-the-guardian/setup-node-using-cloud.md)
-  * [노드 설치 방법 (AWS 스택)](orbs-pos/becoming-the-guardian/aws.md)
+  * [노드 설치 방법 (AWS 마켓플레이스)](orbs-pos/becoming-the-guardian/aws.md)
   * [노드 설치 방법 (자체 서버 이용)](orbs-pos-universe/becoming-the-guardian/setup-node-using-own-infra.md)
   * [온체인에 가디언 등록하기](orbs-pos-universe/becoming-the-guardian/register-your-guardian-on-chain.md)
   * [리워드 분배 비율 설정](orbs-pos-universe/becoming-the-guardian/set-delegators-share.md)

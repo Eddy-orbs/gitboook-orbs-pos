@@ -39,7 +39,7 @@ polygon destroy -f orbs-node.json
 
 원격으로 노드 삭제에 실패하면 AWS 콘솔에서 직접 EC2 인스턴스를 종료할 수 있습니다.
 
-### AWS 스택 사용한 경우 <a href="#node-using-aws-marketplace" id="node-using-aws-marketplace"></a>
+### AWS 마켓플레이스 사용한 경우 <a href="#node-using-aws-marketplace" id="node-using-aws-marketplace"></a>
 
 1. [AWS console](https://console.aws.amazon.com/console/home/?nc2=h_si\&src=header-signin) 로그인
 2. `CloudFormation` 서비스 이동
