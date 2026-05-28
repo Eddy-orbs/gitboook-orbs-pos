@@ -53,7 +53,7 @@ If needed, use [wallet generator](https://iancoleman.io/bip39/) to create new wa
 
 ## Launch Orbs Network Full Node <a href="#launch-orbs-network-full-node" id="launch-orbs-network-full-node"></a>
 
-NOTE: during beta, only 2 regions are supportive. Please select one of regions in the dropdown menu.
+NOTE: during beta, only 1 region is supportive.
 
 1.  Select Region
 
@@ -61,7 +61,8 @@ NOTE: during beta, only 2 regions are supportive. Please select one of regions i
 2.  **Launch:** Click `Launch with CloudFormation` button
 
     <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FaRD8LVmIC4ggexxAmmIq%252Fimage.png%3Falt%3Dmedia%26token%3D10cbd8e7-3fb9-41be-9862-3e07b792f03c&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=b228540d&#x26;sv=2" alt="" height="230" width="563"></div>
-3.  **Create Stack:** Click `Next` button. If S3 URL is empty, you can copy and paste: Amazon S3 URL: `https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/3b48d71a-feb8-4e18-87fb-27aafed9a2c0/3b48d71a-feb8-4e18-87fb-27aafed9a2c0/template-medium-ami-direct.yaml`
+3.  **Create Stack:** Click `Next` button. If S3 URL is empty, you can copy and paste: \
+    Amazon S3 URL: `https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/419ae877-2d01-4c05-84c8-d20e52986770/419ae877-2d01-4c05-84c8-d20e52986770/template-medium-ami-direct-autonet.yaml`
 
     <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252F51dkM17VaOqCmr6FdcVJ%252Fimage.png%3Falt%3Dmedia%26token%3Da7453afe-1a6b-4be2-9a6e-64d44bee8210&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=77d45704&#x26;sv=2" alt=""></div>
 4. **Specify stack details**: Input required items
