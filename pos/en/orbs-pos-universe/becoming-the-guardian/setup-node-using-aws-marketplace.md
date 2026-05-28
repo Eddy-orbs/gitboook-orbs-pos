@@ -41,7 +41,7 @@ If needed, use [wallet generator](https://iancoleman.io/bip39/) to create new wa
 
 ## Subscribe Orbs Node app from AWS marketplace <a href="#subscribe-orbs-node-app-from-aws-marketplace" id="subscribe-orbs-node-app-from-aws-marketplace"></a>
 
-1. login AWS marketpalce website using internet browser (ie. Chrome)
+1. login [AWS marketpalce website](https://aws.amazon.com/marketplace) using internet browser (ie. Chrome)
 2. Goto [Orbs Network Full Node](https://aws.amazon.com/marketplace/pp?sku=51c282skmep4qmamtmspsi8f3) application
 3.  Click `View purchase option`
 
