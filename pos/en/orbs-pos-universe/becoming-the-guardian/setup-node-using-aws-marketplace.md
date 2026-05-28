@@ -74,7 +74,7 @@ NOTE: during beta, only 1 region is supportive.
       5. **SSH access CIDR**: input `0.0.0.0/0` or you can input as you want
       6. **Node/status access CIDR**: modify to `0.0.0.0/0` or you can input as you want
    2. Optional Parameters
-      1. Existing EIP AllocationId(Optional): input ip address when only you already have an allocated Elastic IP. If you don't have any EIP, just leave it empty. Tool will allocate automatically and return the address later.
+      1. Existing EIP AllocationId(Optional): input ip address when only you already have an allocated Elastic IP. If you don't have any EIP, just leave it empty. Tool will allocate automatically and return the address later. We recommend allocate EIP manually and keepp it. Because re-install cause change of ip address.
       2. Optional EC2 Key Pair name(Optional): input key pair if you want to use SSH connection to installed server.
    3. Click `Next` button
 5. **Configure stack options:** Nothing to input. Click `Next` button.
