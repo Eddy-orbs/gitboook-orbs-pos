@@ -14,7 +14,7 @@ Amazon Web Services 같은 클라우드로 노드 인프라와 공인 IP를 확�
 
 * 웹 브라우저 (크롬브라우저 권장)
 * AWS 계정
-* AWS Elastic IP (선ㄹㅇㄴ)
+* AWS Elastic IP
 * 가디언 지갑(스테이킹 및 보상수령) — 하드웨어 지갑 권장
 * 노드 운용용 ERC20 주소의 개인키. 자세한 내용은 [아래](aws.md#orbs)를 참고하세요.
 * 이더리움 RPC 엔드포인트 URL([Infura](https://www.infura.io/) 무료 등급으로 가능)
