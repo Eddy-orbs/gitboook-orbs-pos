@@ -39,7 +39,7 @@ polygon destroy -f orbs-node.json
 
 If you failed to destroy node remotely, you can terminate EC2 service at AWS console
 
-### Node using AWS Stacks
+### Node using AWS Marketplace
 
 1. Login [AWS console](https://console.aws.amazon.com/console/home/?nc2=h_si\&src=header-signin)
 2. Goto `CloudFormation` service&#x20;
@@ -48,7 +48,7 @@ If you failed to destroy node remotely, you can terminate EC2 service at AWS con
 
 ### Node using own infra
 
-Kill boyar process
+Kill boyar process and delete boyar binary
 
 ## Verify your Node is destroyed correctly
 

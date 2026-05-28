@@ -7,7 +7,7 @@
   * [Change guardian](orbs-pos-universe/becoming-the-delegator/change-guardian.md)
 * [Becoming the Guardian](orbs-pos-universe/becoming-the-guardian/README.md)
   * [Setup node using AWS CLI](orbs-pos-universe/becoming-the-guardian/setup-node-using-cloud.md)
-  * [Setup node using AWS Stacks](orbs-pos-universe/becoming-the-guardian/setup-node-using-aws-stacks.md)
+  * [Setup node using AWS Marketplace](orbs-pos-universe/becoming-the-guardian/setup-node-using-aws-marketplace.md)
   * [Setup node using own infra](orbs-pos-universe/becoming-the-guardian/setup-node-using-own-infra.md)
   * [Register your guardian on chain](orbs-pos-universe/becoming-the-guardian/register-your-guardian-on-chain.md)
   * [Set delegators share](orbs-pos-universe/becoming-the-guardian/set-delegators-share.md)
