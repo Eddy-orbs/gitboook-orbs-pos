@@ -43,11 +43,13 @@ If needed, use [wallet generator](https://iancoleman.io/bip39/) to create new wa
 
 1. login [AWS marketpalce website](https://aws.amazon.com/marketplace) using internet browser (ie. Chrome)
 2. Goto [Orbs Network Full Node](https://aws.amazon.com/marketplace/pp?sku=51c282skmep4qmamtmspsi8f3) application
-3.  Click `View purchase option`
+3.  Click `View purchase option`&#x20;
 
     <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FP1ay9DhcpCc5oru9wXTz%252Fimage.png%3Falt%3Dmedia%26token%3Dfd09be62-5aff-4f8c-b3c6-4d641cb28c29&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=405529d8&#x26;sv=2" alt="" width="563"></div>
+
+
 4. Scroll down and click `Subscribe`. This may take few minuates.
-5.  Click `Launch your software`.<br>
+5.  Click `Launch your software`.
 
     <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (13).png" alt="You can see Launch button after subscription process done" width="506"><figcaption><p>You can see Launch button after subscription process done</p></figcaption></figure></div>
 
@@ -58,13 +60,19 @@ NOTE: during beta, only 1 region is supportive.
 1.  Select Region
 
     <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252Fz6W76sFpWiFgTdZfyUjF%252Fimage.png%3Falt%3Dmedia%26token%3Dcf5f56db-cc22-45d2-a1d0-a13102afd44d&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=4bfc9428&#x26;sv=2" alt="" height="79" width="570"></div>
+
+
 2.  **Launch:** Click `Launch with CloudFormation` button
 
     <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FaRD8LVmIC4ggexxAmmIq%252Fimage.png%3Falt%3Dmedia%26token%3D10cbd8e7-3fb9-41be-9862-3e07b792f03c&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=b228540d&#x26;sv=2" alt="" height="230" width="563"></div>
+
+
 3.  **Create Stack:** Click `Next` button. If S3 URL is empty, you can copy and paste: \
-    Amazon S3 URL: `https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/419ae877-2d01-4c05-84c8-d20e52986770/419ae877-2d01-4c05-84c8-d20e52986770/template-medium-ami-direct-autonet.yaml`
+    Amazon S3 URL: `https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/419ae877-2d01-4c05-84c8-d20e52986770/419ae877-2d01-4c05-84c8-d20e52986770/template-medium-ami-direct-autonet.yaml`&#x20;
 
     <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252F51dkM17VaOqCmr6FdcVJ%252Fimage.png%3Falt%3Dmedia%26token%3Da7453afe-1a6b-4be2-9a6e-64d44bee8210&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=77d45704&#x26;sv=2" alt=""></div>
+
+
 4. **Specify stack details**: Input required items
    1. Required Parameters
       1. **Stack name**: Any name you want to use (ie. `my-orbs-node-name`)
