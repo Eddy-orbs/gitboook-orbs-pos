@@ -55,19 +55,21 @@ _**Orbs 노드 개인키는 반드시 안전한 곳 보관하세요.**_
 
 NOTE: 현재 베타기간으로 1개의 지역만 설치지원합니다. 오브스 노드 설치는 꼭 자신의 거주지역이 아니어도 상관없습니다.
 
-1.  **리전 선택하기**
-
-
+1.  **리전 선택하**
 
     <div align="left" data-with-frame="true"><figure><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252Fz6W76sFpWiFgTdZfyUjF%252Fimage.png%3Falt%3Dmedia%26token%3Dcf5f56db-cc22-45d2-a1d0-a13102afd44d&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=4bfc9428&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
+
+
 2.  **시작하기:** `Launch with CloudFormation (CloudFormation으로 시작)` 버튼 클릭
 
-
-
     <div align="left" data-with-frame="true"><figure><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FaRD8LVmIC4ggexxAmmIq%252Fimage.png%3Falt%3Dmedia%26token%3D10cbd8e7-3fb9-41be-9862-3e07b792f03c&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=b228540d&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
+
+
 3.  **스택 생성:** `Next(다음)` 버튼을 클릭하세요. 만약 S3 URL입력칸이 비어있다면 아래 주소를 붙여넣으세요: Amazon S3 URL: `https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/419ae877-2d01-4c05-84c8-d20e52986770/419ae877-2d01-4c05-84c8-d20e52986770/template-medium-ami-direct-autonet.yaml`
 
     <div align="left" data-with-frame="true"><figure><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252F51dkM17VaOqCmr6FdcVJ%252Fimage.png%3Falt%3Dmedia%26token%3Da7453afe-1a6b-4be2-9a6e-64d44bee8210&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=77d45704&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
+
+
 4. **스택 세부 정보 지정**: 준비된 정보를 입력하세요
    1. 필수 입력 정보
       1. **Stack name(스택 이름)**: 원하는 이름을 넣으세요 (ie. `my-orbs-node-name`)
@@ -79,12 +81,10 @@ NOTE: 현재 베타기간으로 1개의 지역만 설치지원합니다. 오브�
    2. 선택 입력 정보
       1. EIP (탄력적 IP) (선택 옵션): 이미 할당받은 ip 주소가 있다면 여기 입력하세요. 할당받은 IP주소가 없다면 비워두세요. 설치중에 자동으로 IP주소를 할당받아서 설치 후에 주소값을 알려줍니다. _EIP는 따로 할당받아서 사용하는 것을 권장합니다. 자동할당을 사용할 경우 재설치시 IP가 변경되어 번거로울 수 있습니다._
       2. Optional EC2 Key Pair name(선택 옵션): SSH접속을 위한 키값
-   3. `Next(다음)` 버튼을 클릭하세요
-5. **스택 옵션 구성:** 따로 입력할 값이 없습니다. 바로 `Next(다음)` 버튼을 누르세요.
-6. **검토 및 작성:** 스크롤을 내리고 `Submit(전송)` 버튼을 누르세요.
+   3. `Next(다음)` 버튼을 클릭하세요<br>
+5. **스택 옵션 구성:** 따로 입력할 값이 없습니다. 바로 `Next(다음)` 버튼을 누르세요.<br>
+6. **검토 및 작성:** 스크롤을 내리고 `Submit(전송)` 버튼을 누르세요.<br>
 7.  설치 상태가 `CREATE_COMPLETE` 완료가 될때까지 기다려주세요. (약 10분 후 새로고침을 클릭결과해보세요)
-
-
 
     <div align="left" data-with-frame="true"><figure><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FyKOOAmg6JzR3UCgKtI5P%252Fimage.png%3Falt%3Dmedia%26token%3D3eb78c65-b6dd-476c-8450-61114af76fce&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=35771510&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
 
