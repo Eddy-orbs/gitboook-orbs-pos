@@ -27,15 +27,11 @@ Orbs 노드 주소는 표준 이더리움 주소입니다. 이 주소는 (1) Orb
 
 참고 — 등록을 완료하려면 Orbs 노드 주소에 **최소 1 ETH**로 시작해야 합니다.
 
-Orbs 노드 주소와 개인키는 안전하게 생성, 보관해야 하며, 개인키는 노드 설치 시 필요합니다(아래 참고).
-
-Orbs 노드 주소는 [가디언 등록](https://orbs-doc.gitbook.io/pos/orbs-pos-universe-ko/orbs-pos/becoming-the-guardian/register-your-guardian-on-chain) 단계에서도 필요합니다.
-
-Orbs 주소는 등록을 갱신해 변경할 수 있습니다. 노드 주소를 바꾸기 전에는 노드를 내리고 다시 설치해야 합니다.
-
-_**Orbs 노드 개인키는 반드시 안전한 곳 보관하세요.**_
-
-필요하면 [wallet generator](https://iancoleman.io/bip39/)로 새 지갑과 개인키를 만들 수 있습니다.
+* Orbs 노드 주소와 개인키는 안전하게 생성, 보관해야 하며, 개인키는 노드 설치 시 필요합니다(아래 참고).
+* Orbs 노드 주소는 [가디언 등록](https://orbs-doc.gitbook.io/pos/orbs-pos-universe-ko/orbs-pos/becoming-the-guardian/register-your-guardian-on-chain) 단계에서도 필요합니다.
+* Orbs 주소는 등록을 갱신해 변경할 수 있습니다. 노드 주소를 바꾸기 전에는 노드를 내리고 다시 설치해야 합니다.
+* _**Orbs 노드 개인키는 반드시 안전한 곳 보관하세요.**_
+* 필요하면 [wallet generator](https://iancoleman.io/bip39/)로 새 지갑과 개인키를 만들 수 있습니다.
 
 ### AWS 마켓플레이스에서 Orbs Node 앱 구매 (무료) <a href="#subscribe-orbs-node-app-from-aws-marketplace" id="subscribe-orbs-node-app-from-aws-marketplace"></a>
 
@@ -43,9 +39,9 @@ _**Orbs 노드 개인키는 반드시 안전한 곳 보관하세요.**_
 2. [Orbs Network Full Node](https://aws.amazon.com/marketplace/pp?sku=51c282skmep4qmamtmspsi8f3) 애플리케이션으로 접속하세요.
 3.  `View purchase option(구매 옵션 보기)` 를 클릭하세요.
 
-
-
     <div align="left" data-with-frame="true"><figure><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FP1ay9DhcpCc5oru9wXTz%252Fimage.png%3Falt%3Dmedia%26token%3Dfd09be62-5aff-4f8c-b3c6-4d641cb28c29&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=405529d8&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
+
+
 4. 스크롤을 내리고 `Subscribe(구독하기)` 를 클릭하세요. 몇 분이 소요될 수 있습니다.
 5.  `Launch your software(소프트웨어 시작)`을 클릭하세요.
 
@@ -55,7 +51,7 @@ _**Orbs 노드 개인키는 반드시 안전한 곳 보관하세요.**_
 
 NOTE: 현재 베타기간으로 1개의 지역만 설치지원합니다. 오브스 노드 설치는 꼭 자신의 거주지역이 아니어도 상관없습니다.
 
-1.  **리전 선택하**
+1.  **리전 선택하기 :** **US East (N.Virginia)를 선택해주세요.**
 
     <div align="left" data-with-frame="true"><figure><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252Fz6W76sFpWiFgTdZfyUjF%252Fimage.png%3Falt%3Dmedia%26token%3Dcf5f56db-cc22-45d2-a1d0-a13102afd44d&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=4bfc9428&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
 
