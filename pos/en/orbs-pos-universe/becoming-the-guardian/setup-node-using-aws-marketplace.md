@@ -1,7 +1,5 @@
 ---
-description: >-
-  ⚠️ This is experimental and beta version. Only us-ease-1 region is supportive
-  now.
+description: ⚠️ This is experimental and beta version.
 ---
 
 # Setup node using AWS Marketplace
@@ -54,8 +52,6 @@ If needed, use [wallet generator](https://iancoleman.io/bip39/) to create new wa
     <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (13).png" alt="You can see Launch button after subscription process done" width="506"><figcaption><p>You can see Launch button after subscription process done</p></figcaption></figure></div>
 
 ## Launch Orbs Network Full Node <a href="#launch-orbs-network-full-node" id="launch-orbs-network-full-node"></a>
-
-NOTE: during beta, only 1 region is supportive.
 
 1.  Select Region
 
