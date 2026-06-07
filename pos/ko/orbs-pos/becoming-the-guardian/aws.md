@@ -1,5 +1,5 @@
 ---
-description: ⚠️ 베타버전으로 1개의 지역만 현재 지원합니다. 참고로 오브스 노드는 설치 지역을 제한하지 않습니다.
+description: ⚠️ 베타버전으로 알려지지 않은 문제가 있을 수 있으며 별도의 공지없이 패치가 이루어 질 수 있습니다.
 ---
 
 # 노드 설치 방법 (AWS 마켓플레이스)
@@ -49,9 +49,7 @@ Orbs 노드 주소는 표준 이더리움 주소입니다. 이 주소는 (1) Orb
 
 ## Orbs Network Full Node 설치하기 <a href="#launch-orbs-network-full-node" id="launch-orbs-network-full-node"></a>
 
-NOTE: 현재 베타기간으로 1개의 지역만 설치지원합니다. 오브스 노드 설치는 꼭 자신의 거주지역이 아니어도 상관없습니다.
-
-1.  **리전 선택하기 :** **US East (N.Virginia)를 선택해주세요.**
+1.  **리전 선택하기 :** 원하는 설치할 지역을 선택해주세요.
 
     <div align="left" data-with-frame="true"><figure><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252Fz6W76sFpWiFgTdZfyUjF%252Fimage.png%3Falt%3Dmedia%26token%3Dcf5f56db-cc22-45d2-a1d0-a13102afd44d&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=4bfc9428&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
 
