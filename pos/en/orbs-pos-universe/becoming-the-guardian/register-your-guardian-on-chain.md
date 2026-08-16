@@ -9,15 +9,15 @@ Guardian registration is mandatory required to be listed on guardians list and d
 * Node wallet address
 * Public IP address you own (or Elastic IP from AWS)
 * Your website that introduce who you are
-* 1 ETH
+* 0.1 ETH
 * 1 POL (optional for Polygon network registration)
 
 ## Move funds to your node address
 
-Your node will need funds to occasionally send transactions over ethereum and polygon networks. For example when the node is ready for committee a tx will be sent over the network. You will need to send 1 ETH(Ethereum network) and 1 POL(Polygon network) to your ORBS node address.
+Your node will need funds to occasionally send transactions over ethereum and polygon networks. For example when the node is ready for committee a tx will be sent over the network. You will need to send 0.1 ETH(Ethereum network) and 1 POL(Polygon network) to your ORBS node address.
 
 {% hint style="info" %}
-The Orbs Node address should hold enough ETH to fund the gas for transactions sent to the PoS contracts. It is the Guardian's responsibility to periodically verify the Orbs node address has a balance of at least 0.5 ETH.
+The Orbs Node address should hold enough ETH to fund the gas for transactions sent to the PoS contracts. It is the Guardian's responsibility to periodically verify the Orbs node address has a balance of at least 0.1 ETH.
 {% endhint %}
 
 ## Register your Guardian
@@ -30,7 +30,7 @@ To register on the network, go to [ORBS Guardians Portal](https://guardians.orbs
 
 NOTE:
 
-* [ ] 1 ETH deposit required in "Node Wallet" in ETH network
+* [ ] 0.1 ETH deposit required in "Node Wallet" in ETH network
 * [ ] 1 POL deposit required in "Node Wallet" in Polygon network (optional for polygon staking)
 * [ ] Only the top 22 elected Guardians are eligible for the rewards and bootstrap funds.
 
