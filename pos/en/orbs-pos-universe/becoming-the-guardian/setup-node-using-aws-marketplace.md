@@ -43,9 +43,7 @@ If needed, use [wallet generator](https://iancoleman.io/bip39/) to create new wa
 2. Goto [Orbs Network Full Node](https://aws.amazon.com/marketplace/pp?sku=51c282skmep4qmamtmspsi8f3) application
 3.  Click `View purchase option`&#x20;
 
-    <div align="left" data-with-frame="true"><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FP1ay9DhcpCc5oru9wXTz%252Fimage.png%3Falt%3Dmedia%26token%3Dfd09be62-5aff-4f8c-b3c6-4d641cb28c29&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=405529d8&#x26;sv=2" alt="" width="563"></div>
-
-
+    <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure></div>
 4. Scroll down and click `Subscribe`. This may take few minuates.
 5.  Click `Launch your software`.
 
