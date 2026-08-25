@@ -71,12 +71,12 @@ Orbs 노드 주소는 표준 이더리움 주소입니다. 이 주소는 (1) Orb
       5. **SSH access CIDR**: `0.0.0.0/0` 또는 원하는 값(의미를 아는 경우)
       6. **Node/status access CIDR**: `0.0.0.0/0` 또는 원하는 값(의미를 아는 경우)
    2. 선택 입력 정보
-      1. EIP (탄력적 IP) (선택 옵션): 이미 할당받은 ip 주소가 있다면 여기 입력하세요. 입력형식은 AWS에서 할당받은 IP주소의 ID값이어야 합니다(예: `eipalloc-0123456789abcdef0`). 할당받은 IP주소가 없다면 비워두세요. 설치중에 자동으로 IP주소를 할당받아서 설치 후에 주소값을 알려줍니다. 가능하다면 _EIP는 따로 할당받아서 사용하는 것을 권장합니다. 자동할당을 사용할 경우 재설치시 IP가 변경되어 번거로울 수 있습니다._
-      2. Optional EC2 Key Pair name(선택 옵션): SSH접속을 위한 키값
+      1. **EIP (탄력적 IP) (선택 옵션):** 이미 할당받은 ip 주소가 있다면 여기 입력하세요. 입력형식은 AWS에서 할당받은 IP주소의 ID값이어야 합니다(예: `eipalloc-0123456789abcdef0`). 할당받은 IP주소가 없다면 비워두세요. 설치중에 자동으로 IP주소를 할당받아서 설치 후에 주소값을 알려줍니다. 가능하다면 _EIP는 따로 할당받아서 사용하는 것을 권장합니다. 자동할당을 사용할 경우 재설치시 IP가 변경되어 번거로울 수 있습니다._
+      2. **Optional EC2 Key Pair name(선택 옵션)**: SSH접속을 위한 키값
    3. `Next(다음)` 버튼을 클릭하세요<br>
 5. **스택 옵션 구성:** 따로 입력할 값이 없습니다. 바로 `Next(다음)` 버튼을 누르세요.<br>
 6. **검토 및 작성:** 스크롤을 내리고 `Submit(전송)` 버튼을 누르세요.<br>
-7.  설치 상태가 `CREATE_COMPLETE` 완료가 될때까지 기다려주세요. (약 10분 후 새로고침을 클릭결과해보세요)
+7.  설치 상태가 `CREATE_COMPLETE` 완료가 될때까지 기다려주세요. (약 10분 후 새로고침을 클릭해서 결과를 확인해보세요)
 
     <div align="left" data-with-frame="true"><figure><img src="https://orbs-doc.gitbook.io/pos/~gitbook/image?url=https%3A%2F%2F3545397290-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fg5oTTPwJkXaserapTxr7%252Fuploads%252FyKOOAmg6JzR3UCgKtI5P%252Fimage.png%3Falt%3Dmedia%26token%3D3eb78c65-b6dd-476c-8450-61114af76fce&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=35771510&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
 
