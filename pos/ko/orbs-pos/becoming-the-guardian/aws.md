@@ -37,9 +37,9 @@ Orbs 노드 주소는 표준 이더리움 주소입니다. 이 주소는 (1) Orb
 
 1. 브라우저에서 [AWS 마켓플레이스](https://aws.amazon.com/marketplace)에 접속해서 aws 계정으로 로그인하세요.
 2. [Orbs Network Full Node](https://aws.amazon.com/marketplace/pp?sku=51c282skmep4qmamtmspsi8f3) 애플리케이션으로 접속하세요.
-3.  `View purchase option(구매 옵션 보기)` 를 클릭하세요.
+3.  `View purchase option(구매 옵션 보기)` 를 클릭하세요.<br>
 
-    <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure></div>
+    <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (15).png" alt="" width="563"><figcaption></figcaption></figure></div>
 4. 스크롤을 내리고 `Subscribe(구독하기)` 를 클릭하세요. 몇 분이 소요될 수 있습니다.
 5.  `Launch your software(소프트웨어 시작)`을 클릭하세요.
 
