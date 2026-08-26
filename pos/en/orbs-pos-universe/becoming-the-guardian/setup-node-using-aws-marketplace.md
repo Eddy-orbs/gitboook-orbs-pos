@@ -41,9 +41,9 @@ If needed, use [wallet generator](https://iancoleman.io/bip39/) to create new wa
 
 1. login [AWS marketpalce website](https://aws.amazon.com/marketplace) using internet browser (ie. Chrome)
 2. Goto [Orbs Network Full Node](https://aws.amazon.com/marketplace/pp?sku=51c282skmep4qmamtmspsi8f3) application
-3.  Click `View purchase option`&#x20;
+3.  Click `View purchase option` <br>
 
-    <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure></div>
+    <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (15).png" alt="" width="563"><figcaption></figcaption></figure></div>
 4. Scroll down and click `Subscribe`. This may take few minuates.
 5.  Click `Launch your software`.
 
