@@ -66,8 +66,8 @@ Orbs 노드 주소는 표준 이더리움 주소입니다. 이 주소는 (1) Orb
    1. 필수 입력 정보
       1. **Stack name(스택 이름)**: 원하는 이름을 넣으세요 (ie. `my-orbs-node-name`)
       2. **Ethereum RPC endpoint** (ie. `https://mainnet.infura.io/v3/06b6...b2d7e`)
-      3. **Orbs node address without 0x** (ie. `246abE5D...000`)
-      4. **Orbs private key without 0x** (ie. `0ab6F...000`)
+      3. **Orbs node address without 0x** (ie. `246abE5D...000`) : 노드 주소값 중 앞에 0x 를 제외한 값입니다. (**가디언 지갑 주소 아닙니다**)
+      4. **Orbs private key without 0x** (ie. `0ab6F...000`) : 노드 주소의 프라이빗 키 앞에 0x 를 제외한 값입니다. (**가디언 지갑 주소키의 키가 아닙니다**)
       5. **SSH access CIDR**: `0.0.0.0/0` 또는 원하는 값(의미를 아는 경우)
       6. **Node/status access CIDR**: `0.0.0.0/0` 또는 원하는 값(의미를 아는 경우)
    2. 선택 입력 정보
