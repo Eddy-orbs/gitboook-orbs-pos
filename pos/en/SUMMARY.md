@@ -10,6 +10,7 @@
   * [Setup node using AWS CLI](orbs-pos-universe/becoming-the-guardian/setup-node-using-cloud.md)
   * [Setup node using AWS Marketplace](orbs-pos-universe/becoming-the-guardian/setup-node-using-aws-marketplace.md)
   * [Register your guardian on chain](orbs-pos-universe/becoming-the-guardian/register-your-guardian-on-chain.md)
+  * [Stake ORBS](orbs-pos-universe/becoming-the-guardian/stake-orbs.md)
   * [Set delegators share](orbs-pos-universe/becoming-the-guardian/set-delegators-share.md)
   * [Certified committee](orbs-pos-universe/becoming-the-guardian/certified-committee/README.md)
     * [Withdraw Bootstrap funds](orbs-pos-universe/becoming-the-guardian/certified-committee/withdraw-bootstrap-funds.md)
